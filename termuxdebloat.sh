@@ -80,10 +80,6 @@ pm uninstall --user 0 com.sec.android.app.quicktool
 pm uninstall --user 0 com.samsung.android.service.peoplestripe
 pm uninstall --user 0 com.samsung.android.app.sbrowseredge                    #Samsung Internet's edge panel
 
-echo Removing SIM Toolkit
-pm uninstall --user 0 com.android.stk                                         #SIM 1 Toolkit
-pm uninstall --user 0 com.android.stk2                                        #SIM 2 Toolkit
-
 echo Removing Bixby related apps
 pm uninstall --user 0 com.samsung.android.bixby.agent                         #Bixby Agent
 pm uninstall --user 0 com.samsung.android.bixby.agent.dummy                   #Bixby voice stub
